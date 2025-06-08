@@ -1,0 +1,19 @@
+{
+"data": {
+"createBook": {
+"id": "4"
+}
+}
+}
+
+-------------------------------
+{
+    "data": {
+        "getBook": {
+            "title": "Emotional Story of Devesh and Pooja",
+            "price": "500.00",
+            "author": "Anand",
+            "pages": 200
+        }
+    }
+}

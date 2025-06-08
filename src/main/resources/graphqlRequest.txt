@@ -1,0 +1,21 @@
+mutation{
+    createBook(book:{
+        title:"New Title",
+        author:"Devesh",
+        price:"201",
+        desc:"testing graphql Insertion",
+        pages:212
+    }){
+        id
+    }
+}
+--------------------------
+query{
+    getBook(bookId:2){
+        title,
+        price,
+        author,
+        pages
+    }
+}
+
